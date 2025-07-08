@@ -18,7 +18,7 @@ Emit **standard OTLP traces** that (1) stream live to an OTEL Collector UI and (
 
 ```python
 # === OTEL SETUP | COPY AS-IS ===
-import uuid
+import uuid, json, asyncio
 import os
 import signal
 import sys
