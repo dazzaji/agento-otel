@@ -91,11 +91,11 @@ See spec for full list ([opentelemetry.io][2], [opentelemetry.io][8]).
 
 ```python
 # truncate big responses
-def set_ai_response_attribute(span, txt:str):
-    # OTel spec allows redaction; see gen-ai-events section.
+def set_ai_response_attribute(span, txt: str):
     if len(txt) > 8192:
         span.set_attribute("gen_ai.response.truncated", True)
-        span.set_attribute("gen_ai.response.truncated_reason", "size_limit")
+        ► # Custom Agento extension; not part of the official spec ◄
+        ► span.set_attribute("agento.response.truncated_reason", "size_limit") ◄
         span.set_attribute("gen_ai.response.length", len(txt))
         span.set_attribute("gen_ai.response.content", txt[:8000] + "...[truncated]")
     else:
