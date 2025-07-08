@@ -81,7 +81,7 @@ The telemetry **is the product**: it must capture every meaningful decision, pro
 | `gen_ai.request.temperature`| Input | `0.1` *(range 0 – 2)* |
 | `gen_ai.usage.input_tokens` | After response | `prompt_token_count` |
 | `gen_ai.usage.output_tokens`| After response | `completion_token_count` |
-| `gen_ai.response.finish_reasons`| After response | `["stop"]` |
+| `gen_ai.response.finish_reason`| After response | `["stop"]` |
 
 See spec for full list ([opentelemetry.io][2], [opentelemetry.io][8]).
 
