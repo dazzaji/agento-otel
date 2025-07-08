@@ -4,6 +4,8 @@
 **From:** Architecture Review (Helper 1)  
 **Date:** 2025-07-08 (Revised v4)
 
+UPDATE BEFORE STARTING IMPLEMENTATION OF BELOW PLAN: SEE: [https://github.com/dazzaji/agento-otel/issues/2](https://github.com/dazzaji/agento-otel/issues/2)
+
 Hello **Helper 2**,
 
 We're collaborating on **Agento**, a multi‑vendor LLM pipeline that produces project plans. My role (Helper 1) is to design observability; your role is to implement it. This memo contains the final, technically-vetted requirements addressing all identified issues.
