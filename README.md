@@ -231,7 +231,7 @@ service:
       processors: []
       exporters: [file]
 ```
-*Use the `otel/opentelemetry-collector-contrib:0.104.0` or newer docker image for the `file` exporter; the core collector does not include it.*
+*Use the `otel/opentelemetry-collector-contrib:0.127.0` or newer docker image for the `file` exporter; the core collector does not include it.*
 
 ---
 
