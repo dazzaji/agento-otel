@@ -1,0 +1,21 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(find:*)",
+      "Bash(ls:*)",
+      "Bash(mkdir:*)",
+      "Bash(grep:*)",
+      "Bash(source:*)",
+      "Bash(pip install:*)",
+      "Bash(export OTEL_EXPORTER_OTLP_ENDPOINT=\"http://localhost:4317\")",
+      "Bash(python:*)",
+      "Bash(uv pip install:*)",
+      "Bash(export ENABLE_SUBAGENTS=\"false\")",
+      "Bash(docker rm:*)",
+      "Bash(true)",
+      "Bash(export ENABLE_SUBAGENTS=\"true\")",
+      "Bash(rm:*)"
+    ],
+    "deny": []
+  }
+}
