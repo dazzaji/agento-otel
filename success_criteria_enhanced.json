@@ -1,0 +1,238 @@
+{
+  "enhanced_success_criteria": [
+    {
+      "original": "Expanded professional network and deeper social connections within the target communities.",
+      "enhanced": {
+        "description": "Achieve measurable network expansion through weekly professional gatherings, with quantifiable connection quality metrics and community engagement tracking",
+        "metrics": [
+          "Number of new professional contacts added per week (target: 3-5)",
+          "Quality score of connections (1-10 scale based on interaction depth)",
+          "Follow-up interaction rate within 7 days of initial contact (target: >60%)",
+          "Professional referrals received per quarter (target: 2+)",
+          "Community event attendance rate (target: 90% of planned weekly gatherings)"
+        ],
+        "validation": {
+          "automated": [
+            "CRM/contact management system API queries for new contacts count",
+            "Calendar integration to track event attendance",
+            "Email/message tracking for follow-up interaction rates",
+            "LinkedIn API for connection growth and engagement metrics",
+            "Automated survey responses collection post-networking events"
+          ],
+          "manual": [
+            "Weekly relationship quality assessment (1-10 scale for each new connection)",
+            "Monthly review of meaningful professional conversations",
+            "Quarterly evaluation of community integration level",
+            "Assessment of speaking opportunities or leadership roles obtained",
+            "Review of collaborative projects initiated through networking"
+          ],
+          "llm_evaluation": [
+            "Analyze communication patterns for relationship depth indicators",
+            "Evaluate social media engagement quality and reciprocity",
+            "Assess professional reputation growth through online presence",
+            "Review networking event feedback and testimonials",
+            "Analyze career opportunity pipeline strength"
+          ]
+        },
+        "telemetry_attributes": {
+          "agento.networking.contacts_added_weekly": "integer - new professional contacts per week",
+          "agento.networking.connection_quality_avg": "float - average quality score of connections (1-10)",
+          "agento.networking.followup_rate": "float - percentage of contacts followed up within 7 days",
+          "agento.networking.event_attendance_rate": "float - percentage of planned events attended",
+          "agento.networking.referrals_received": "integer - professional referrals received per quarter",
+          "agento.networking.community_leadership_roles": "integer - leadership positions obtained",
+          "agento.networking.collaborative_projects": "integer - projects initiated through connections",
+          "agento.validation.network_expansion.score": "float - composite networking success score"
+        },
+        "timeline": "Weekly measurement with monthly quality reviews and quarterly comprehensive assessment"
+      }
+    },
+    {
+      "original": "Achievement of defined fitness goals and improved physical well-being.",
+      "enhanced": {
+        "description": "Achieve specific, measurable fitness milestones through daily physical activities with biometric tracking and performance benchmarks",
+        "metrics": [
+          "Daily activity completion rate (target: 95% of planned activities)",
+          "Weekly workout intensity progression (measured via heart rate zones)",
+          "Strength benchmarks: specific lift increases per month (target: 5-10% improvement)",
+          "Cardiovascular endurance: target heart rate maintenance duration",
+          "Body composition metrics: body fat percentage and muscle mass tracking",
+          "Sleep quality score (7+ hours, sleep efficiency >85%)",
+          "Energy level self-assessment (1-10 scale, target: 7+ average)"
+        ],
+        "validation": {
+          "automated": [
+            "Fitness tracker API integration for daily activity completion",
+            "Heart rate monitor data analysis for workout intensity tracking",
+            "Smart scale integration for body composition measurements",
+            "Sleep tracking device data collection and analysis",
+            "Workout app data extraction for strength progression tracking",
+            "Automated milestone achievement notifications and logging"
+          ],
+          "manual": [
+            "Monthly fitness assessment with trainer or medical professional",
+            "Weekly subjective energy and mood evaluation",
+            "Monthly progress photos and measurements documentation",
+            "Quarterly comprehensive health screening and blood work review",
+            "Assessment of injury prevention and recovery protocols",
+            "Evaluation of lifestyle integration and habit sustainability"
+          ],
+          "llm_evaluation": [
+            "Analyze workout consistency patterns and identify optimization opportunities",
+            "Evaluate nutrition and recovery protocol effectiveness",
+            "Assess goal achievement trajectory and recommend adjustments",
+            "Review health trends and identify potential risk factors",
+            "Analyze correlation between physical activity and energy/mood metrics"
+          ]
+        },
+        "telemetry_attributes": {
+          "agento.fitness.daily_activity_completion_rate": "float - percentage of planned daily activities completed",
+          "agento.fitness.workout_intensity_avg": "float - average workout intensity score",
+          "agento.fitness.strength_progression_monthly": "float - percentage improvement in strength benchmarks",
+          "agento.fitness.cardio_endurance_minutes": "integer - minutes of target heart rate maintenance",
+          "agento.fitness.body_fat_percentage": "float - current body fat percentage",
+          "agento.fitness.muscle_mass_kg": "float - current muscle mass in kilograms",
+          "agento.fitness.sleep_quality_score": "float - sleep quality rating (0-100)",
+          "agento.fitness.energy_level_avg": "float - average daily energy level (1-10)",
+          "agento.fitness.milestone_achievements": "integer - number of fitness milestones achieved",
+          "agento.validation.fitness.composite_score": "float - overall fitness progress score"
+        },
+        "timeline": "Daily activity tracking with weekly progress reviews and monthly comprehensive assessments"
+      }
+    },
+    {
+      "original": "Consistent production of usable woodworking prototypes and development of creative skills.",
+      "enhanced": {
+        "description": "Complete monthly woodworking projects with measurable skill progression, prototype functionality assessment, and creative development tracking",
+        "metrics": [
+          "Monthly prototype completion rate (target: 100% of planned projects)",
+          "Project complexity progression score (1-10 scale, target: +1 level per quarter)",
+          "Prototype functionality rating (usability testing score 1-10, target: 7+)",
+          "Skill development metrics: technique mastery checklist completion",
+          "Time efficiency improvement: hours per project complexity level",
+          "Material waste reduction percentage month-over-month",
+          "Creative innovation score: unique design elements per project"
+        ],
+        "validation": {
+          "automated": [
+            "Project completion tracking system with photo documentation",
+            "Time logging integration for efficiency measurement",
+            "Material inventory system for waste calculation",
+            "Automated skill checklist progress tracking",
+            "Digital portfolio generation with project metadata",
+            "Workshop tool usage analytics and maintenance scheduling"
+          ],
+          "manual": [
+            "Monthly prototype functionality testing and scoring",
+            "Quarterly skill assessment with woodworking mentor or expert",
+            "Creative design review and innovation scoring",
+            "Safety protocol adherence evaluation",
+            "Project complexity and craftsmanship quality assessment",
+            "Portfolio review and market potential evaluation"
+          ],
+          "llm_evaluation": [
+            "Analyze project progression for skill development patterns",
+            "Evaluate creative design evolution and innovation trends",
+            "Assess time management and efficiency improvement opportunities",
+            "Review safety incident patterns and prevention strategies",
+            "Analyze prototype market viability and commercial potential"
+          ]
+        },
+        "telemetry_attributes": {
+          "agento.woodworking.monthly_completion_rate": "float - percentage of planned monthly projects completed",
+          "agento.woodworking.complexity_progression_score": "float - project complexity level (1-10)",
+          "agento.woodworking.prototype_functionality_avg": "float - average functionality rating of prototypes",
+          "agento.woodworking.skill_mastery_percentage": "float - percentage of skill checklist completed",
+          "agento.woodworking.time_efficiency_hours_per_complexity": "float - hours per complexity level",
+          "agento.woodworking.material_waste_percentage": "float - material waste percentage",
+          "agento.woodworking.creative_innovation_score": "float - creative elements per project",
+          "agento.woodworking.projects_completed_total": "integer - total projects completed",
+          "agento.woodworking.safety_incidents": "integer - safety incidents per quarter",
+          "agento.validation.woodworking.composite_score": "float - overall woodworking progress score"
+        },
+        "timeline": "Monthly project completion with quarterly skill assessments and annual portfolio reviews"
+      }
+    },
+    {
+      "original": "Demonstrable professional advancement and increased visibility within the AI/tech sector.",
+      "enhanced": {
+        "description": "Achieve quantifiable professional growth in AI/tech sector through quarterly project deliverables, industry recognition metrics, and career advancement indicators",
+        "metrics": [
+          "Quarterly AI/tech project completion rate (target: 100% of planned projects)",
+          "Industry visibility score: speaking engagements, publications, media mentions",
+          "Professional recognition metrics: awards, certifications, endorsements received",
+          "Career advancement indicators: promotion, salary increase, role expansion",
+          "Thought leadership metrics: blog posts, articles, technical contributions published",
+          "Professional network quality in AI/tech: C-level and senior connections count",
+          "Open source contributions: commits, projects, community engagement"
+        ],
+        "validation": {
+          "automated": [
+            "Project management system integration for completion tracking",
+            "Social media monitoring for mentions and industry visibility",
+            "GitHub/GitLab analytics for open source contribution tracking",
+            "Professional platform APIs (LinkedIn) for network growth monitoring",
+            "Publication and citation tracking through academic/industry databases",
+            "Speaking engagement and conference participation logging"
+          ],
+          "manual": [
+            "Quarterly career advancement review with manager/mentor",
+            "Annual professional goal assessment and strategic planning",
+            "Industry peer feedback collection and analysis",
+            "Portfolio review for technical project quality and impact",
+            "Professional brand assessment and reputation evaluation",
+            "Salary and compensation benchmarking against industry standards"
+          ],
+          "llm_evaluation": [
+            "Analyze professional content for thought leadership quality",
+            "Evaluate industry trend alignment and expertise positioning",
+            "Assess career trajectory against industry advancement patterns",
+            "Review technical project portfolio for innovation and impact",
+            "Analyze professional network quality and strategic value"
+          ]
+        },
+        "telemetry_attributes": {
+          "agento.professional.quarterly_project_completion_rate": "float - percentage of planned quarterly projects completed",
+          "agento.professional.industry_visibility_score": "float - composite visibility score (speaking, publications, media)",
+          "agento.professional.recognition_count": "integer - awards, certifications, endorsements received",
+          "agento.professional.career_advancement_level": "integer - career level progression indicator",
+          "agento.professional.thought_leadership_publications": "integer - thought leadership content published",
+          "agento.professional.senior_network_connections": "integer - C-level and senior professional connections",
+          "agento.professional.open_source_contributions": "integer - meaningful open source contributions",
+          "agento.professional.speaking_engagements": "integer - speaking opportunities accepted",
+          "agento.professional.salary_increase_percentage": "float - annual salary increase percentage",
+          "agento.validation.professional.composite_score": "float - overall professional advancement score"
+        },
+        "timeline": "Quarterly project and visibility reviews with annual comprehensive career assessment"
+      }
+    }
+  ],
+  "integration_guidelines": {
+    "opentelemetry_implementation": {
+      "root_span_pattern": "agento.validation.success_criteria",
+      "child_spans": [
+        "agento.validation.networking",
+        "agento.validation.fitness", 
+        "agento.validation.woodworking",
+        "agento.validation.professional"
+      ],
+      "event_spans": [
+        "agento.event.milestone_achieved",
+        "agento.event.goal_reassessment",
+        "agento.event.validation_cycle_complete"
+      ]
+    },
+    "data_collection_frequency": {
+      "daily": ["fitness activities", "time tracking", "social interactions"],
+      "weekly": ["networking quality assessment", "project progress review"],
+      "monthly": ["comprehensive metric compilation", "goal progress evaluation"],
+      "quarterly": ["strategic goal reassessment", "validation system optimization"]
+    },
+    "automation_requirements": {
+      "apis_needed": ["fitness trackers", "CRM systems", "social media platforms", "project management tools"],
+      "data_storage": "time-series database for trend analysis and historical comparison",
+      "alerting": "automated notifications for goal deviation and milestone achievements",
+      "reporting": "automated dashboard generation with trend analysis and predictive insights"
+    }
+  }
+}

@@ -53,4 +53,4 @@ Deprecated>=1.2.0
 wrapt>=1.0.0
 
 # Claude Code SDK for subagent integration
-claude-code-sdk>=0.1.0
+claude-code-sdk<=0.0.17
